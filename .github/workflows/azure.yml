@@ -11,12 +11,12 @@
 on:
   # Trigger the workflow on push or pull request,
   # but only for the master branch
-  push:
-    branches:
-      - master
-  pull_request:
-    branches:
-      - master
+  #push:
+  #  branches:
+  #    - master
+  #pull_request:
+  #  branches:
+  #    - master
 
 env:
   AZURE_WEBAPP_NAME: test-depl   # set this to your application's name
